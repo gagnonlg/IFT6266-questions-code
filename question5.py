@@ -19,8 +19,8 @@ for i, sigma in enumerate(sigma_s):
 
 ext = [0.001, 1, 0.01, 1]
 plt.imshow(grid, origin='lower', interpolation=None, extent=ext, aspect='auto')
-plt.xlabel('sigma')
-plt.ylabel('mu_2 - mu_1')
+plt.ylabel('sigma')
+plt.xlabel('mu_2 - mu_1')
 plt.colorbar().set_label('Bayes error')
 #plt.show()
 plt.savefig('bayes.png')
